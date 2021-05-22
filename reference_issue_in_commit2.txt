@@ -1,7 +1,3 @@
-try other message forms. Will it work?
+use comma as a reference separator, like this:
 
-like here:
-
-fix
-balabala
-#5
+fix #5, close #5.
