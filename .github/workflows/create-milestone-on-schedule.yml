@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 14 1 * *'
+    - cron: '17 1 * * *'
     
 jobs:
   create_milestone:
