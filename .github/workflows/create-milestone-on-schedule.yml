@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date -v+8H +'%Y-%m-%d')"
+        run: echo "::set-output name=date::$(date -d '+8 hour' +'%Y-%m-%d')"
       - name: Create milestone
         uses: WyriHaximus/github-action-create-milestone@v1
         with:
